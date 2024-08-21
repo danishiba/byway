@@ -14,34 +14,11 @@ select {
   font-family: "Inter24pt-Regular";
   font-weight: 500;
 }
-@font-face {
-  font-family: "Inter18pt-Black";
-  src: url("font/Inter18pt-Black.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: "Inter18pt-Bold";
   src: url("font/Inter18pt-Bold.woff2") format("woff2");
   font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter18pt-ExtraBold";
-  src: url("font/Inter18pt-ExtraBold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter18pt-Light";
-  src: url("font/Inter18pt-Light.woff2") format("woff2");
-  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
@@ -55,14 +32,6 @@ select {
 }
 
 @font-face {
-  font-family: "Inter18pt-SemiBold";
-  src: url("font/Inter18pt-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "Inter24pt-Regular";
   src: url("font/Inter24pt-Regular.woff2") format("woff2");
   font-weight: normal;
@@ -70,17 +39,37 @@ select {
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Inter 24pt";
-  src: url("font/Inter24pt-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+
 a {
   color: #253858;
   text-decoration: none;
+  font-family: "Inter24pt-Regular";
 }
+button{
+  font-family: "Inter24pt-Regular";
+}
+h1{
+  font-family: "Inter18pt-Bold";
+}
+h2{
+  font-family: "Inter18pt-Medium";
+}
+h3{
+  font-family: "Inter18pt-Medium";
+}
+h4{
+  font-family: "Inter18pt-Medium";
+}
+h5{
+  font-family: "Inter18pt-Medium";
+}
+h6{
+  font-family: "Inter18pt-Regular";
+}
+p{
+  font-family: "Inter24pt-Regular";
+}
+
 a:hover,
 .submit:hover {          
   opacity: 0.85;
@@ -486,7 +475,8 @@ a:hover,
   line-height: 25.6px;
 }
 #Customer .wrapper .container .classbox .img_container {
-    width: 60px
+    width: 60px;
+    padding-top: 12px;
 }
 #Customer .wrapper .container .classbox .img_container img {
     width: 100%;
@@ -500,10 +490,8 @@ a:hover,
   padding-left: 2%;
   margin-top: 1%;
 }
-#Customer .wrapper .container .box .classbox h6 {
-    margin-top: 8%;
-    margin-left: -21%;
-}
+#Customer .wrapper .container .box .
+
 
 #last {
   height: 950px;
@@ -604,10 +592,12 @@ footer {
 footer a,li {
   color: #CBD5E1;
   margin-bottom: 8px;
+  font-family: "Inter18pt-Regular";
 }
 footer .h1 {
   font-weight: bold;
   color: #ffffff;
+  font-family: "Inter18pt-Bold";
 }
 .footer{
   display: flex;
